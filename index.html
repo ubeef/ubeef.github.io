@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>牛肉哥的技术馆子</title>
+  <title>牛肉馆</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:type" content="website">
-<meta property="og:title" content="牛肉哥的技术馆子">
+<meta property="og:title" content="牛肉馆">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="牛肉哥的技术馆子">
+<meta property="og:site_name" content="牛肉馆">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="beef">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="牛肉哥的技术馆子" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="牛肉馆" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/favicon.png">
@@ -42,8 +42,12 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="index.html" id="logo">牛肉哥的技术馆子</a>
+        <a href="index.html" id="logo">牛肉馆</a>
       </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="index.html" id="subtitle">牛肉哥的技术馆子</a>
+        </h2>
       
     </div>
     <div id="header-inner" class="inner">
@@ -71,10 +75,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-latex-笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-hexo安装使用，mac-multipass-vscode-gitee" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="2021/01/17/latex-%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time class="dt-published" datetime="2021-01-17T06:03:35.000Z" itemprop="datePublished">2021-01-17</time>
+    <a href="2021/01/17/hexo%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%EF%BC%8Cmac-multipass-vscode-gitee/" class="article-date">
+  <time class="dt-published" datetime="2021-01-17T12:19:59.000Z" itemprop="datePublished">2021-01-17</time>
 </a>
     
   </div>
@@ -85,7 +89,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="2021/01/17/latex-%E7%AC%94%E8%AE%B0/">Latex 笔记</a>
+      <a class="p-name article-title" href="2021/01/17/hexo%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%EF%BC%8Cmac-multipass-vscode-gitee/">Hexo安装使用，mac+multipass+vscode+gitee</a>
     </h1>
   
 
@@ -93,11 +97,27 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <p>这里记录的是我在自己电脑上安装配置的hexo博客的经历过程。也作为自己建好个人博客的第一篇测试文章。各位看看过过眼瘾，有什么问题或是建议请多多<a href="">联系本人</a>。</p>
+<h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><h3 id="multipass"><a href="#multipass" class="headerlink" title="multipass"></a>multipass</h3><p>使用<code>multipass</code>可以简单的在macOS上搭建ubuntu系统，这玩意类似于windows下的WSL。其和起docker一样使用了hyperkit(一个轻量级vm框架）作为后端更加轻量，是笔者遇到在macOS环境下遇到的能够使用linux系虚拟环境的最好解决方案。</p>
+<h4 id="使用brew安装multipas"><a href="#使用brew安装multipas" class="headerlink" title="使用brew安装multipas"></a>使用<code>brew</code>安装<code>multipas</code></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install multipass</span><br></pre></td></tr></table></figure>
+<h4 id="使用multipass安装创建ubuntu虚拟环境"><a href="#使用multipass安装创建ubuntu虚拟环境" class="headerlink" title="使用multipass安装创建ubuntu虚拟环境"></a>使用<code>multipass</code>安装创建<code>ubuntu</code>虚拟环境</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">multipass launch -c 1 -d 10G -m 2g -n hexo</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>df</td>
+<td>df</td>
+</tr>
+</tbody></table>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/17/latex-%E7%AC%94%E8%AE%B0/" data-id="ckk0ql7tu00005vd8806w2pbr" data-title="Latex 笔记" class="article-share-link">Teilen</a>
+      <a data-url="http://example.com/2021/01/17/hexo%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%EF%BC%8Cmac-multipass-vscode-gitee/" data-id="ckk16yxxj0000drd83x0efzy6" data-title="Hexo安装使用，mac+multipass+vscode+gitee" class="article-share-link">Teilen</a>
       
       
       
@@ -187,7 +207,7 @@
       <ul>
         
           <li>
-            <a href="2021/01/17/latex-%E7%AC%94%E8%AE%B0/">Latex 笔记</a>
+            <a href="2021/01/17/hexo%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%EF%BC%8Cmac-multipass-vscode-gitee/">Hexo安装使用，mac+multipass+vscode+gitee</a>
           </li>
         
           <li>
