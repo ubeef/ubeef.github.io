@@ -9,15 +9,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="baidu-site-verification" content="[object Object]">
 
 <link rel="stylesheet" href="/css/main.css">
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"ubeef.gitee.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"ubeef.gitee.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="史上最史上的技术贴，好的烹饪助您胃口大开。">
@@ -102,6 +104,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -131,11 +134,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -181,10 +211,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-01-18 02:03:46 / 修改时间：13:58:19" itemprop="dateCreated datePublished" datetime="2021-01-18T02:03:46+08:00">2021-01-18</time>
+              <time title="创建时间：2021-01-18 02:03:46" itemprop="dateCreated datePublished" datetime="2021-01-18T02:03:46+08:00">2021-01-18</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-01-19 14:34:47" itemprop="dateModified" datetime="2021-01-19T14:34:47+08:00">2021-01-19</time>
+              </span>
 
           
 
@@ -198,20 +234,6 @@
 
       
           <h2 id="安装mathjax"><a href="#安装mathjax" class="headerlink" title="安装mathjax"></a>安装mathjax</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-filter-mathjax-ssr --save</span><br></pre></td></tr></table></figure>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">mathjax:</span></span><br><span class="line">  <span class="attr">inlineQuote:</span> [<span class="string">&#x27;<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.016ex" height="2.843ex" style="vertical-align: -0.671ex;" viewBox="0 -934.9 868.1 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
-<title id="MathJax-SVG-1-Title">', '</title>
-<defs aria-hidden="true">
-<path stroke-width="1" id="E1-MJMAIN-2032" d="M79 43Q73 43 52 49T30 61Q30 68 85 293T146 528Q161 560 198 560Q218 560 240 545T262 501Q262 496 260 486Q259 479 173 263T84 45T79 43Z"></path>
-<path stroke-width="1" id="E1-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
-</defs>
-<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
- <use transform="scale(0.707)" xlink:href="#E1-MJMAIN-2032" x="0" y="583"></use>
-<g transform="translate(294,0)">
- <use xlink:href="#E1-MJMAIN-2C" x="0" y="0"></use>
- <use transform="scale(0.707)" xlink:href="#E1-MJMAIN-2032" x="393" y="583"></use>
-</g>
-</g>
-</svg>&#x27;</span>]</span><br><span class="line">  <span class="attr">blockQuote:</span> [<span class="string">&#x27;MATHJAX-SSR-0&#x27;</span>]</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -261,7 +283,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-01-19 03:23:39" itemprop="dateModified" datetime="2021-01-19T03:23:39+08:00">2021-01-19</time>
+                <time title="修改时间：2021-01-19 14:26:40" itemprop="dateModified" datetime="2021-01-19T14:26:40+08:00">2021-01-19</time>
               </span>
 
           
@@ -275,8 +297,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这里记录的是我在自己电脑上安装配置的hexo博客的经历过程。也作为自己建好个人博客的第一篇测试文章。各位看看过过眼瘾，有什么问题或是建议请多多<a href="">联系本人</a>。</p>
-<p>[TOC]</p>
+          <p>这里记录的是我在自己电脑上安装配置的hexo博客的经历过程。也作为自己建好个人博客的第一篇测试文章。各位看看过过眼瘾，有什么问题或是建议请多多<a href>联系本人</a>。</p>
 <h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><h3 id="multipass介绍"><a href="#multipass介绍" class="headerlink" title="multipass介绍"></a>multipass介绍</h3><p>使用<code>multipass</code>可以简单的在macOS上搭建ubuntu系统，这玩意类似于windows下的WSL。其和起docker一样使用了hyperkit(一个轻量级vm框架）作为后端更加轻量，是笔者遇到在macOS环境下遇到的能够使用linux系虚拟环境的最好解决方案。</p>
 <h3 id="使用brew安装multipas"><a href="#使用brew安装multipas" class="headerlink" title="使用brew安装multipas"></a>使用<code>brew</code>安装<code>multipas</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install multipass</span><br></pre></td></tr></table></figure>
 <h3 id="使用multipass安装创建ubuntu虚拟环境"><a href="#使用multipass安装创建ubuntu虚拟环境" class="headerlink" title="使用multipass安装创建ubuntu虚拟环境"></a>使用<code>multipass</code>安装创建<code>ubuntu</code>虚拟环境</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">multipass launch -c 1 -d 10G -m 2g -n hexo</span><br></pre></td></tr></table></figure>
@@ -507,12 +528,18 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">beef</span>
+<span id="busuanzi_container_site_uv">
+  本站访问次数：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</div>
 
 
 
@@ -527,6 +554,8 @@
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -546,6 +575,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
