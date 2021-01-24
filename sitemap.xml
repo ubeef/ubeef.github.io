@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ubeef.gitee.io/%E5%A6%82%E4%BD%95%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/2021/01/25/</loc>
+    
+    <lastmod>2021-01-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ubeef.gitee.io/markdown%E4%B8%AD%E6%8F%92%E5%85%A5latex%E5%85%AC%E5%BC%8F%E6%A0%BC%E5%BC%8F/2021/01/18/</loc>
     
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-24</lastmod>
     
   </url>
   
   <url>
     <loc>https://ubeef.gitee.io/hexo%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%EF%BC%8Cmac-multipass-vscode-gitee/2021/01/17/</loc>
     
-    <lastmod>2021-01-19</lastmod>
+    <lastmod>2021-01-24</lastmod>
     
   </url>
   
@@ -32,7 +39,7 @@
 
   <url>
     <loc>https://ubeef.gitee.io/</loc>
-    <lastmod>2021-01-23</lastmod>
+    <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -40,28 +47,42 @@
   
   <url>
     <loc>https://ubeef.gitee.io/tags/macOS/</loc>
-    <lastmod>2021-01-23</lastmod>
+    <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://ubeef.gitee.io/tags/multipass/</loc>
-    <lastmod>2021-01-23</lastmod>
+    <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://ubeef.gitee.io/tags/markdown/</loc>
-    <lastmod>2021-01-23</lastmod>
+    <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://ubeef.gitee.io/tags/latex/</loc>
-    <lastmod>2021-01-23</lastmod>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ubeef.gitee.io/tags/%E7%BB%88%E8%BA%AB%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ubeef.gitee.io/tags/%E8%AF%BB%E4%B9%A6/</loc>
+    <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -70,14 +91,21 @@
   
   <url>
     <loc>https://ubeef.gitee.io/categories/hexo%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-01-23</lastmod>
+    <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://ubeef.gitee.io/categories/markdown%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2021-01-23</lastmod>
+    <lastmod>2021-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ubeef.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2021-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
