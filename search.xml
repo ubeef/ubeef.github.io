@@ -18,4 +18,17 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>test</title>
+    <url>/2022/05/07/test/</url>
+    <content><![CDATA[<p>This article is for the purpose of testing the posibility of deploying blog though rough text editor provided by github.com .</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
 </search>
