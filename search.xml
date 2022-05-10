@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2022/05/08/hello-world/</url>
+    <url>/2022/05/10/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -20,7 +20,7 @@
   </entry>
   <entry>
     <title>范畴论简述</title>
-    <url>/2022/05/08/stanford-category-theory/</url>
+    <url>/2022/05/10/stanford-category-theory/</url>
     <content><![CDATA[<h3 id="译述"><a href="#译述" class="headerlink" title="译述"></a>译述</h3><p>本文翻译自斯坦福大学关于范畴论的公开文章。在此凭我浅薄的英文水平翻译出来，希望能与读者共同感受着门学科独特的魅力。<br>原文链接：<a href="https://plato.stanford.edu/entries/category-theory/]">https://plato.stanford.edu/entries/category-theory/</a></p>
 <h1 id="范畴论"><a href="#范畴论" class="headerlink" title="范畴论"></a>范畴论</h1><blockquote>
 <p>首次发表于1996.12.6，大修于2019.8.29</p>
@@ -36,7 +36,7 @@
   </entry>
   <entry>
     <title>test</title>
-    <url>/2022/05/08/test/</url>
+    <url>/2022/05/10/test/</url>
     <content><![CDATA[<p>This article is for the purpose of testing the posibility of deploying blog though rough text editor provided by github.com .</p>
 ]]></content>
       <categories>
