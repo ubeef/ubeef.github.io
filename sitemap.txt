@@ -1,6 +1,6 @@
-http://ubeef.github.io/2022/06/01/hello-world/
-http://ubeef.github.io/2022/06/01/test/
-http://ubeef.github.io/2022/06/01/stanford-category-theory/
+http://ubeef.github.io/2022/hello-world/
+http://ubeef.github.io/2022/test/
+http://ubeef.github.io/2022/stanford-category-theory/
 http://ubeef.github.io/about/index.html
 http://ubeef.github.io/categories/index.html
 http://ubeef.github.io/project/index.html
