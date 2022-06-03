@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://ubeef.xyz/2022/hello-world/</loc>
+    <loc>http://www.ubeef.xyz/2022/hello-world/</loc>
     <lastmod>2022-06-03</lastmod>
   </url>
   <url>
-    <loc>http://ubeef.xyz/2022/test/</loc>
+    <loc>http://www.ubeef.xyz/2022/test/</loc>
     <lastmod>2022-06-03</lastmod>
   </url>
   <url>
-    <loc>http://ubeef.xyz/2022/stanford-category-theory/</loc>
+    <loc>http://www.ubeef.xyz/2022/stanford-category-theory/</loc>
     <lastmod>2022-06-03</lastmod>
   </url>
 </urlset> 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ubeef.xyz/2022/hello-world/</loc>
+    <loc>http://www.ubeef.xyz/2022/hello-world/</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/2022/test/</loc>
+    <loc>http://www.ubeef.xyz/2022/test/</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/2022/stanford-category-theory/</loc>
+    <loc>http://www.ubeef.xyz/2022/stanford-category-theory/</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/about/index.html</loc>
+    <loc>http://www.ubeef.xyz/about/index.html</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/categories/index.html</loc>
+    <loc>http://www.ubeef.xyz/categories/index.html</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/project/index.html</loc>
+    <loc>http://www.ubeef.xyz/project/index.html</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/series/index.html</loc>
+    <loc>http://www.ubeef.xyz/series/index.html</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/tags/index.html</loc>
+    <loc>http://www.ubeef.xyz/tags/index.html</loc>
     
     <lastmod>2022-06-03</lastmod>
     
@@ -75,7 +75,7 @@
   
 
   <url>
-    <loc>http://ubeef.xyz/</loc>
+    <loc>http://www.ubeef.xyz/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -83,21 +83,21 @@
 
   
   <url>
-    <loc>http://ubeef.xyz/tags/hexo/</loc>
+    <loc>http://www.ubeef.xyz/tags/hexo/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/tags/test/</loc>
+    <loc>http://www.ubeef.xyz/tags/test/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/tags/math/</loc>
+    <loc>http://www.ubeef.xyz/tags/math/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -106,14 +106,14 @@
 
   
   <url>
-    <loc>http://ubeef.xyz/categories/hexo/</loc>
+    <loc>http://www.ubeef.xyz/categories/hexo/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ubeef.xyz/categories/categories-theory/</loc>
+    <loc>http://www.ubeef.xyz/categories/categories-theory/</loc>
     <lastmod>2022-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
