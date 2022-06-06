@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ubeef.xyz/project/index.html</loc>
+    
+    <lastmod>2022-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ubeef.xyz/series/index.html</loc>
+    
+    <lastmod>2022-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ubeef.xyz/tags/index.html</loc>
+    
+    <lastmod>2022-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ubeef.xyz/2022/hello-world/</loc>
     
     <lastmod>2022-06-06</lastmod>
@@ -39,33 +66,6 @@
   
   <url>
     <loc>http://www.ubeef.xyz/categories/index.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ubeef.xyz/project/index.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ubeef.xyz/series/index.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ubeef.xyz/tags/index.html</loc>
     
     <lastmod>2022-06-06</lastmod>
     
