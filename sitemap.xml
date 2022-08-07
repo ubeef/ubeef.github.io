@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.ubeef.xyz/2022/hello-world/</loc>
+    <loc>https://ubeef.gitee.io/2022/hello-world/</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/2022/test/</loc>
+    <loc>https://ubeef.gitee.io/2022/test/</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/2022/stanford-category-theory/</loc>
+    <loc>https://ubeef.gitee.io/2022/stanford-category-theory/</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/about/index.html</loc>
+    <loc>https://ubeef.gitee.io/about/index.html</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/categories/index.html</loc>
+    <loc>https://ubeef.gitee.io/categories/index.html</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/project/index.html</loc>
+    <loc>https://ubeef.gitee.io/project/index.html</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/series/index.html</loc>
+    <loc>https://ubeef.gitee.io/series/index.html</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/tags/index.html</loc>
+    <loc>https://ubeef.gitee.io/tags/index.html</loc>
     
     <lastmod>2022-08-07</lastmod>
     
@@ -75,7 +75,7 @@
   
 
   <url>
-    <loc>http://www.ubeef.xyz/</loc>
+    <loc>https://ubeef.gitee.io/</loc>
     <lastmod>2022-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -83,21 +83,21 @@
 
   
   <url>
-    <loc>http://www.ubeef.xyz/tags/hexo/</loc>
+    <loc>https://ubeef.gitee.io/tags/hexo/</loc>
     <lastmod>2022-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/tags/test/</loc>
+    <loc>https://ubeef.gitee.io/tags/test/</loc>
     <lastmod>2022-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/tags/math/</loc>
+    <loc>https://ubeef.gitee.io/tags/math/</loc>
     <lastmod>2022-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -106,14 +106,14 @@
 
   
   <url>
-    <loc>http://www.ubeef.xyz/categories/hexo/</loc>
+    <loc>https://ubeef.gitee.io/categories/hexo/</loc>
     <lastmod>2022-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.ubeef.xyz/categories/categories-theory/</loc>
+    <loc>https://ubeef.gitee.io/categories/categories-theory/</loc>
     <lastmod>2022-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
